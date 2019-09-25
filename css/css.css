@@ -1,0 +1,29 @@
+@import url(../css/reset.css);
+
+body {
+    /* display: grid;
+    grid-template-columns: [left-gutter] 1fr [content] repeat(4, 0.8fr) [right-gutter] 1fr;
+    grid-template-rows: [header] 0.8fr [content] repeat(10, 1.6fr) [footer] 0.2712fr; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.slider-carousel {
+    display: grid;
+    grid-template-columns: [left-gutter] 1fr [content] repeat(4, 0.8fr) [right-gutter] 1fr;
+}
+.bulding-around {
+    grid-column: content / 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: brown;   
+}
