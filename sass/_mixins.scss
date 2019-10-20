@@ -1,0 +1,184 @@
+@mixin block-font($fontSize_h2, $lineheight_h2, $color_p) {
+    h3 {
+        font-family: 'Montserrat-bold';
+        font-size: $fontSize_h2;
+        line-height: $lineheight_h2;
+        color: #000000;
+    }
+
+    h2 {
+        font-family: 'Montserrat-bold';
+        font-size: $fontSize_h2;
+        line-height: $lineheight_h2;
+        color: #000000;
+
+        &::after {
+            content: '';
+            width: 1.429em;
+            height: 0.179em;
+            background-color: #000;
+            display: block;
+        }
+    } 
+
+    p {
+        font-family: 'Montserrat-regular';
+        font-size: 0.95em;
+        line-height: 1.375em;
+        color: $color_p;
+        padding: 2.5% 0 7% 0;
+        text-align: left;
+    }
+}
+
+@mixin button($width) { 
+    button {
+        font-family: 'Montserrat-regular';
+        font-size: 0.75em;
+        color: #ffffff;
+        border: none;
+        width: $width;
+        background-color:#363636;
+        padding: 2.75% 0%;
+    }
+
+    button:hover {
+        color: #000000;
+        background-color: #ffffff;
+    }
+}
+
+@mixin links ($color, $background-color) {
+        background-color: $background-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        h2 {
+            font-family: 'Montserrat-regular';
+            font-size: 0.75em;
+            color: $color;
+            box-sizing: border-box;
+            text-decoration: none;
+            padding-top: 6%;
+        }    
+}
+
+@mixin review {
+    img {
+        width: 10.5%;
+        margin-top: -5%;
+        padding-bottom: 1%;
+    }
+
+    h1 {
+        font-family: 'Montserrat-bold';
+        font-size: 0.95em;
+        color: #363636;
+        padding-top: 2%;
+    }
+
+    .stars {
+        padding-top: 1.5%;
+    }
+
+    .stars > div {
+        display: inline-block;
+        background: url('../img/star.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1.25em; 
+        height: 1.25em;
+    }
+    
+    .stars:hover > div {
+        background: url('../img/star_filled.png');
+        background-repeat: no-repeat;
+    }
+    
+    .stars > div:hover ~ div {
+        background: url('../img/star.png');
+        background-repeat: no-repeat;
+    }
+
+    p {
+        font-family: 'Montserrat-regular';
+        font-size: 0.95em;
+        line-height: 1.375em;
+        color: #363636;
+        text-align: center;
+        padding-top: 2%;
+    }
+}
+
+@mixin slider-size { 
+    
+    .slider-nav   {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-initialized {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-slider {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-list  {
+        height: 100%;
+        width: 100%;
+    }
+
+    .draggable {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-slide   {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-current {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slick-track {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@mixin stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 12%;
+
+    img {
+        margin-top: -10%;
+        width: 35%;
+        height: 30%;
+    }
+
+    h1 {
+        font-family: 'Montserrat-regular';
+        font-size: 2.25em;
+        color: #707070;
+        padding-top: 15%;
+    }
+
+    p {
+        font-family: 'Montserrat-regular';
+        font-size: 0.875em;
+        color: #a0a0a0;
+    }
+}
