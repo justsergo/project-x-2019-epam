@@ -1962,6 +1962,27 @@ and (max-width : 540px) {
     .portfolio{
         grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
     }
+    // our services
+    .promo {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
+    .main-information {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
+    // post page
+    .promo-post-page {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
+    .content-post-page {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
+    // news&events
+    .promo-news-events {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
+    .content-news-events {
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+    }
     footer{
         grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
     }
