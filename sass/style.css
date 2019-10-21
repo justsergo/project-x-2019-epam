@@ -4429,6 +4429,30 @@ footer a:hover {
     -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
         grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
   }
+  .promo {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
+  .main-information {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
+  .promo-post-page {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
+  .content-post-page {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
+  .promo-news-events {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
+  .content-news-events {
+    -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
+        grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
+  }
   footer {
     -ms-grid-columns: [left-gutter] 0.1fr [content] (0.8fr)[4] [right-gutter] 0.1fr;
         grid-template-columns: [left-gutter] 0.1fr [content] repeat(4, 0.8fr) [right-gutter] 0.1fr;
